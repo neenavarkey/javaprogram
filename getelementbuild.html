@@ -1,0 +1,26 @@
+<html>
+<head>
+<script type="text/javascript">
+function display()
+{
+	var textbox1=document.getElementById("text1");
+	var textbox2=document.getElementById("text2");
+
+	var num1=parseInt(textbox1.value);
+	var num2=parseInt(textbox2.value);
+
+
+	var num3=num1+num2;
+	alert(num3);
+}
+</script>
+</head>
+<body>
+Number 1<input type="text" id="text1"/>
+<br/>
+Number 2<input type="text" id="text2"/>
+<br/>
+<input type="button" value="CLICK" onclick="display()"/>
+
+</body>
+</html>
