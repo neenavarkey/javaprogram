@@ -15,9 +15,9 @@ and open the template in the editor.
      <center>
          <form action="login.jsp" >  
            
-              USER NAME:<input type="user name" name="user name" pattern=".{5}" title="five characters"><br><br
-              PASSWORD:<input type="password" name="password" pattern=".{10}" title="ten characters"><br><br>
-              MOBILE NO:<input type="mobile no" name="mobile no" pattern=".{10}" title="ten digits"><br><br>
+              USER NAME:<input type="user name" required="true" pattern=".{5,}" title="five characters"><br><br
+              PASSWORD:<input type="password" required="true " pattern=".{5,10}" title="ten characters"><br><br>
+              MOBILE NO:<input type="mobile no" required="true" pattern="[0-9]{10}" title="ten digits"><br><br>
             <input type="submit" value="REGISTER">
          </form>>
      </center>
